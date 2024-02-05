@@ -5,7 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import com.re.boardback.entity.BoardListViewEntity;
 
-import java.util.*;
 import java.util.List;
 
 
