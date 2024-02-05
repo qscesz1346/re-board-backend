@@ -14,7 +14,7 @@ import com.re.boardback.service.FileService;
 @Service
 public class FileServiceImplement implements FileService {
 
-    @Value("${file.path}")
+    @Value("${spring.resources.static-locations}")
     private String filePath;
     @Value("${file.url}")
     private String fileUrl;
